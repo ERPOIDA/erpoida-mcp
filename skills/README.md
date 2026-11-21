@@ -31,7 +31,7 @@ Copy the folders you want (keep the folder names) into your agent's skills direc
 macOS / Linux, all skills for Claude Code:
 
 ```sh
-git clone https://github.com/darwishx/erpoida-mcp.git
+git clone https://github.com/ERPOIDA/erpoida-mcp.git
 mkdir -p ~/.claude/skills
 cp -R erpoida-mcp/skills/erpoida* ~/.claude/skills/
 ```
@@ -39,7 +39,7 @@ cp -R erpoida-mcp/skills/erpoida* ~/.claude/skills/
 Windows PowerShell, all skills for Kiro:
 
 ```powershell
-git clone https://github.com/darwishx/erpoida-mcp.git
+git clone https://github.com/ERPOIDA/erpoida-mcp.git
 New-Item -ItemType Directory -Force "$HOME\.kiro\skills" | Out-Null
 Copy-Item -Recurse erpoida-mcp\skills\erpoida* "$HOME\.kiro\skills\"
 ```
