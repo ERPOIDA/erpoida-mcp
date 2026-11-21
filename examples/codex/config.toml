@@ -1,0 +1,8 @@
+# ~/.codex/config.toml
+# Reads the token from the ERPOIDA_TOKEN environment variable and sends it as
+# "Authorization: Bearer <token>". For OAuth instead, drop bearer_token_env_var
+# and run: codex mcp login erpoida
+
+[mcp_servers.erpoida]
+url = "https://app.erpoida.com/api/mcp/server"
+bearer_token_env_var = "ERPOIDA_TOKEN"

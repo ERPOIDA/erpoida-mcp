@@ -1,0 +1,19 @@
+# Secrets: never commit tokens
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
+
+# Local agent artifacts
+.agents/

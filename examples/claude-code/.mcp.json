@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "erpoida": {
+      "type": "http",
+      "url": "https://app.erpoida.com/api/mcp/server",
+      "headers": {
+        "Authorization": "Bearer ${ERPOIDA_TOKEN}"
+      }
+    }
+  }
+}

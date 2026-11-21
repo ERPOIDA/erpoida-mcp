@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "erpoida-token",
+      "description": "ERPoida personal access token (Settings → Access tokens)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "erpoida": {
+      "type": "http",
+      "url": "https://app.erpoida.com/api/mcp/server",
+      "headers": {
+        "Authorization": "Bearer ${input:erpoida-token}"
+      }
+    }
+  }
+}

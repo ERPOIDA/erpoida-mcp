@@ -1,0 +1,17 @@
+{
+  "name": "erpoida-mcp-node-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Minimal Node.js client for the ERPoida MCP server",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "list-tools": "node list-tools.mjs",
+    "call-tool": "node call-tool.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0"
+  }
+}
